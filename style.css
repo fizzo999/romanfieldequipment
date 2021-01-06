@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background: #333;
+  color: #fff;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+  /* padding: 2px 10px; */
+}
+
+a:hover {
+  background: #444;
+  color: coral;
+  padding: 32px 20px;
+}
+
+li {
+  list-style: none;
+}
+
+nav ul {
+  display: inline-block;
+  padding: 2rem 0;
+}
+
+nav li {
+  display: inline;
+  padding: 20px;
+  text-align: center;
+}
+
+h1,
+h2 {
+  /* display: block; */
+  text-align: center;
+}
+
+h1 {
+  color: hsl(69, 100%, 84%);
+  font-size: 4rem;
+  background: #444;
+  padding: 20px;
+}
+
+h2 {
+  color: #448bd1;
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+p {
+  font-size: 1.6rem;
+  padding: 2rem 2rem;
+  text-align: justify;
+}
+
+#swords img,
+#shields img,
+#siege img {
+  width: 500px;
+  display: block;
+  margin: auto;
+}
+
+#shields {
+  float: left;
+  width: 42%;
+  margin-left: 2rem;
+}
+
+#siege {
+  float: right;
+  width: 42%;
+  margin-right: 2rem;
+}
+
+.inline {
+  width: 300px;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+footer > p {
+  display: inline-block;
+  /* align-items: center; */
+}
+
+
