@@ -6,7 +6,7 @@
 
 
 body {
-  background: #333;
+  background-color: #333;
   color: #fff;
 }
 
@@ -36,13 +36,16 @@ header > h1 {
 }
 
 nav ul {
-  display: inline-block;
-
+  /* display: inline-block; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   padding: 2rem 0;
 }
 
 nav li {
-  display: inline;
+  /* display: inline; */
   padding: 20px 24px;
   text-align: center;
 }
@@ -52,7 +55,23 @@ nav li {
   text-align: center;
   background: #444;
   padding: 2rem;
-  font-size: 2rem;;
+  font-size: 3rem;;
+}
+
+.color-changer {
+  display: block;
+  text-align: center;
+  padding: 0 2rem 2rem 2rem;
+  background: #444;
+  font-size: 2rem;
+}
+
+.color-changer input {
+  padding: 20px;
+  border-radius: 10px;
+  border: 5px solid coral;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .header-script:hover {
