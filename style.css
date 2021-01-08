@@ -55,8 +55,20 @@ nav li {
   text-align: center;
   background: #444;
   padding: 2rem;
-  font-size: 3rem;;
+  font-size: 3rem;
 }
+
+.counter {
+  display: block;
+  margin: 0 auto;
+  padding: 4rem;
+  border: 5px solid coral;
+  background: chartreuse;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 4rem;
+}
+
 
 .color-changer {
   display: block;
@@ -166,8 +178,20 @@ footer > a:hover {
   background: blue;
   border: 5px solid coral;
   /* display: flex; */
+}
 
+.random-image {
+  background-color: #222;
+  padding: 1rem;
+  margin: 0.5rem 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
+.random-image img {
+  max-width: 300px;
 }
 
 
