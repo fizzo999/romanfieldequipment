@@ -6,12 +6,16 @@ function repeatNumber() {
   for (let i = 1; i <= userAnswer; i++) {
     document.write('<img src="https://source.unsplash.com/400x300/?Rome">');
   }
-  // return userAnswer;
-  // let currentRepeatNumber = i;
-  let element2 = document.getElementById('headerNumber');
-  element2.textContent = '<h1>' + 'Number' + i + '</h1>';
+  document.write('<h1>' + userAnswer + '</h1 >');
+  return userAnswer;
 }
+// let currentRepeatNumber = userAnswer;
+// let element2 = document.getElementById('headerNumber');
+// element2.textContent = '<h1>' + 'Number' + 2currentRepeatNumber + '</h1>';
+
 repeatNumber();
+
+
 
 
 

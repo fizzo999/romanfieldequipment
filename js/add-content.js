@@ -14,7 +14,7 @@ function MyHello() {
   } else if (hourNow > 0) {
     Fgreeting = 'Good morning, ';
   } else {
-    Fgreeting = 'Welcome ';
+    Fgreeting = 'Welcome, ';
   }
 
   document.write('<h3>' + Fgreeting + '</h3>');
